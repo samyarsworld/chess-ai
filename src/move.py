@@ -1,12 +1,27 @@
 class Move:
-    def __init__(self, initial, final):
+    rank_to_row = {i: 8 - i for i in range(8)}
+    row_to_rank = {8 - i: i for i in range(8)}
+    file_to_col = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7}
+    col_to_file = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f', 6: 'g', 7: 'h'}
+
+    def __init__(self, initial, final, board):
         self.initial = initial
         self.final = final
+        self.moved_piece = board.squares[self.initial.row][self.initial.col].piece
+        self.captured_piece = board.squares[self.final.row][self.final.col].piece
+        self.is_enpassant = False
 
     def __str__(self):
+        # Create chess notation
+        abv = self.moved_piece.name[0].upper()
+        if self.moved_piece.name == 'knight':
+            abv = 'N'
+        elif self.moved_piece.name == 'pawn':
+            abv = ''
+
         s = ''
-        s += f'({self.initial.col}, {self.initial.row})'
-        s += f' -> ({self.final.col}, {self.final.row})'
+        s += f'{abv}{self.col_to_file[self.initial.col]}{self.rank_to_row[self.initial.row]}'
+        s += f' -> {self.col_to_file[self.final.col]}{self.rank_to_row[self.final.row]}'
         return s
 
     def __eq__(self, other):

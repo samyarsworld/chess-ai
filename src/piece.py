@@ -1,4 +1,6 @@
 import os
+import pygame
+from const import PIECES
 
 class Piece:
     def __init__(self, name, color, value, shape=None, shape_pos=None):
@@ -9,10 +11,10 @@ class Piece:
         self.set_shape()
         self.shape_pos = shape_pos
         self.moves = []
-        self.moved = False
+        self.times_moved = 0
 
-    def set_shape(self, size=80):
-        self.shape = os.path.join(f'assets/images/{size}px/{self.color}_{self.name}.png')
+    def set_shape(self):
+        self.shape = pygame.image.load(os.path.join('assets','images','80px', f'{self.color}_{self.name}.png'))
     
     def add_move(self, move):
         self.moves.append(move)

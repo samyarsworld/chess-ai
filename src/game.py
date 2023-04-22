@@ -13,7 +13,7 @@ class Game:
         self.hover = None
         self.font = pygame.font.SysFont('monospace', 18, bold=True)
         self.alphacols = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f', 6: 'g', 7: 'h'}
-
+        
     # Render methods
     def show_board(self, screen):
         for row in range(ROWS):
@@ -42,11 +42,9 @@ class Game:
                 # Show if there is a piece
                 if self.board.squares[row][col].piece:
                     piece = self.board.squares[row][col].piece
-
                     # All pieces except dragging piece
                     if piece is not self.dragger.piece:
-                        piece.set_shape(size=80)
-                        img = pygame.image.load(piece.shape)
+                        img = piece.shape
                         img_loc = (col * SQ_SIZE + SQ_SIZE // 2, row * SQ_SIZE + SQ_SIZE // 2)
                         piece.shape_pos = img.get_rect(center=img_loc)
                         screen.blit(img, piece.shape_pos)
@@ -55,6 +53,14 @@ class Game:
         if self.dragger.dragging:
             piece = self.dragger.piece
 
+            ###################
+            if piece.color == 'black':
+                for move in self.board.AI_possible_moves:
+                    color = '#C86464' if (move.final.row + move.final.col) % 2 == 0 else '#C84646'
+                    rect = (move.final.col * SQ_SIZE, move.final.row * SQ_SIZE, SQ_SIZE, SQ_SIZE)
+                    pygame.draw.rect(screen, color, rect)
+                return
+
             # Show all valid moves
             for move in piece.moves:
                 color = '#C86464' if (move.final.row + move.final.col) % 2 == 0 else '#C84646'
@@ -62,9 +68,9 @@ class Game:
                 pygame.draw.rect(screen, color, rect)
 
     def show_last_move(self, surface):
-        if self.board.last_move:
-            initial = self.board.last_move.initial
-            final = self.board.last_move.final
+        if self.board.move_log:
+            initial = self.board.move_log[-1].initial
+            final = self.board.move_log[-1].final
 
             for pos in [initial, final]:
                 color = (244, 247, 116) if (pos.row + pos.col) % 2 == 0 else (172, 195, 51)
@@ -82,7 +88,8 @@ class Game:
         self.player_turn = 'white' if self.player_turn == 'black' else 'black'
 
     def set_hover(self, row, col):
-        self.hover = self.board.squares[row][col]
+        if 0 <= row < ROWS and 0 <= col < COLS:
+            self.hover = self.board.squares[row][col]
 
     def play_sound(self, capture=False):
         if capture:

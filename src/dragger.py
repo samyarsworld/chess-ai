@@ -21,10 +21,15 @@ class Dragger:
     
     # Show dragging piece
     def update_blit(self, screen):
-        self.piece.set_shape(128)
-        img = pygame.image.load(self.piece.shape)
+        # Scale the pieceto 128px for dragging effect
+        img = pygame.transform.scale(self.piece.shape, (1.6 * SQ_SIZE, 1.6 * SQ_SIZE))
+
+        # Update image location as moving
         img_loc = (self.pointer_x, self.pointer_y)
+
+        # Set the image position on the square
         self.piece.shape_pos = img.get_rect(center=img_loc)
+        
         screen.blit(img, self.piece.shape_pos)
 
     # Set dragging piece
