@@ -55,7 +55,7 @@ class Game:
 
             ###################
             if piece.color == 'black':
-                for move in self.board.AI_possible_moves:
+                for move in self.board.all_possible_moves:
                     color = '#C86464' if (move.final.row + move.final.col) % 2 == 0 else '#C84646'
                     rect = (move.final.col * SQ_SIZE, move.final.row * SQ_SIZE, SQ_SIZE, SQ_SIZE)
                     pygame.draw.rect(screen, color, rect)
@@ -87,6 +87,7 @@ class Game:
     def change_turn(self):
         self.player_turn = 'white' if self.player_turn == 'black' else 'black'
 
+
     def set_hover(self, row, col):
         if 0 <= row < ROWS and 0 <= col < COLS:
             self.hover = self.board.squares[row][col]
@@ -96,6 +97,3 @@ class Game:
             pygame.mixer.Sound(os.path.join('assets/sounds/capture.wav')).play()
         else:
             pygame.mixer.Sound(os.path.join('assets/sounds/move.wav')).play()
-
-    def reset(self):
-        self.__init__()

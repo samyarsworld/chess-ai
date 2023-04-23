@@ -35,8 +35,6 @@ class Bishop(Piece):
         super().__init__('bishop', color, 3.001)
 class King(Piece):
     def __init__(self, color):
-        self.left_rook = None
-        self.right_rook = None
         super().__init__('king', color, 10000.0)
 class Queen(Piece):
     def __init__(self, color):

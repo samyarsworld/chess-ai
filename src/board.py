@@ -2,16 +2,20 @@ from square import Square
 from move import Move
 from piece import *
 from const import *
-import copy
 
 
 class Board:
     def __init__(self):
         self.squares = [[0 for _ in range(COLS)] for _ in range(ROWS)]
         self.move_log = []
-        self.AI_possible_moves = []
+        self.all_possible_moves = []
         self.player_color = 'white'
         self.opponent_color = 'black'
+        self.checkmate = False
+        self.stalemate = False
+        self.black_king_loc = [0, 4]
+        self.white_king_loc = [7, 4]
+
         self._create()
         
 
@@ -81,7 +85,7 @@ class Board:
                             # Check if does not cause self check
                             # If we are not validating for checks then validate for checks first
                             if not is_for_check:
-                                if not self.in_check(piece, move):
+                                if not self.will_be_check(piece, move):
                                     piece.add_move(move)
                                 else:
                                     break
@@ -95,7 +99,7 @@ class Board:
                             # Check if does not cause self check
                             # If we are not validating for checks then validate for checks first
                             if not is_for_check:
-                                if not self.in_check(piece, move):
+                                if not self.will_be_check(piece, move):
                                     piece.add_move(move)
                                 else:
                                     break
@@ -123,7 +127,7 @@ class Board:
                     # Check if does not cause self check
                     # If we are not validating for checks then validate for checks first
                     if not is_for_check:
-                        if not self.in_check(piece, move):
+                        if not self.will_be_check(piece, move):
                             piece.add_move(move)
                     else:
                         piece.add_move(move)
@@ -142,7 +146,7 @@ class Board:
 
                     # Check if does not cause self check
                     if not is_for_check:
-                        if not self.in_check(piece, move):
+                        if not self.will_be_check(piece, move):
                             piece.add_move(move)
                     else:
                         piece.add_move(move)
@@ -159,7 +163,7 @@ class Board:
                         move = Move(Square(row, col), Square(final_r, col - 1, p), self)
                         # Check if does not cause self check
                         if not is_for_check:
-                            if not self.in_check(piece, move):
+                            if not self.will_be_check(piece, move):
                                 piece.add_move(move)
                         else:
                             piece.add_move(move)
@@ -173,7 +177,7 @@ class Board:
                         move = Move(Square(row, col), Square(final_r, col + 1, p), self)
                         # Check if does not cause self check
                         if not is_for_check:
-                            if not self.in_check(piece, move):
+                            if not self.will_be_check(piece, move):
                                 piece.add_move(move)
                         else:
                             piece.add_move(move)
@@ -200,7 +204,7 @@ class Board:
                     
                     # Check if does not cause self check
                     if not is_for_check:
-                        if not self.in_check(piece, move):
+                        if not self.will_be_check(piece, move):
                             piece.add_move(move)
                         else:
                             # Moving the knight is not possible at all so break
@@ -231,7 +235,7 @@ class Board:
                     # Check if does not cause self check
                     # If we are not validating for checks then validate for checks first
                     if not is_for_check:
-                        if not self.in_check(piece, move):
+                        if not self.will_be_check(piece, move):
                             piece.add_move(move)
                     else:
                         piece.add_move(move)
@@ -246,18 +250,13 @@ class Board:
                     for c in range(1, 4):
                         if self.squares[row][c].piece: break
                         if c == 3:
-                            # Add left rook to king
-                            piece.left_rook = left_rook
-                            # Add rook move
-                            move_rook = Move(Square(row, 0), Square(row, 3), self)
-                            left_rook.add_move(move_rook)
                             # Add king move
                             move_king = Move(Square(row, col), Square(row, 2), self)
                             # Check if does not cause self check
                             if not is_for_check:
                                 # Check if king is not cut off by opponent piece when castling
                                 if Move(Square(row, col), Square(row, 3), self) in piece.moves:
-                                    if not self.in_check(piece, move_king):
+                                    if not self.will_be_check(piece, move_king):
                                         piece.add_move(move_king)
                             else:
                                 piece.add_move(move_king)
@@ -270,21 +269,16 @@ class Board:
                         # Check if no piece are between king and rook
                         if self.squares[row][c].piece: break
                         if c == 6:
-                            # Add right rook to king
-                            piece.right_rook = right_rook
-                            # Add rook move
-                            move_rook = Move(Square(row, 7), Square(row, 5), self)
-                            right_rook.add_move(move_rook)
                             # Add king move
                             move_king = Move(Square(row, col), Square(row, 6), self)
                             # Check if does not cause self check
                             if not is_for_check:
                                 # Check if king is not cut off by opponent piece when castling
                                 if Move(Square(row, col), Square(row, 5), self) in piece.moves:
-                                    if not self.in_check(piece, move_king):
+                                    if not self.will_be_check(piece, move_king):
                                         piece.add_move(move_king)
                             else:
-                                right_rook.add_move(move_rook)
+                                piece.add_move(move_king)
 
 
         if piece.name == 'pawn': pawn_moves()
@@ -296,9 +290,9 @@ class Board:
 
 
     def valid_move(self, piece, move):
-        ##############
+        # If we are playing vs AI this code should be here
         if piece.color == self.opponent_color:
-            return move in self.AI_possible_moves
+            return move in self.all_possible_moves
         return move in piece.moves
     
     def move(self, piece, move):
@@ -328,15 +322,34 @@ class Board:
 
         # Castle
         if isinstance(piece, King) and abs(initial.col - final.col) == 2:
-            rook = piece.left_rook if (final.col - initial.col < 0) else piece.right_rook
-            self.move(rook, rook.moves[-1])
-            rook.moves = []
+            if final.col - initial.col < 0:
+                # Queen side castle
+                rook = self.squares[initial.row][0].piece
+                self.squares[initial.row][0].piece = None
+                self.squares[initial.row][3].piece = rook
+            else:
+                # King side castle
+                rook = self.squares[initial.row][7].piece
+                self.squares[initial.row][7].piece = None
+                self.squares[initial.row][5].piece = rook
+            
+            self.squares[final.row][final.col].piece = piece
+            self.squares[initial.row][initial.col].piece = None
+            rook.times_moved += 1
 
         # Moved piece, useful for pawns first move and castle related moves
         piece.times_moved += 1
 
+
         # Append last move
         self.move_log.append(move)
+
+        # Update king location
+        if isinstance(piece, King):
+            if piece.color == 'black':
+                self.black_king_loc = [final.row, final.col]
+            else:
+                self.white_king_loc = [final.row, final.col]
 
 
     def undo_move(self):
@@ -353,56 +366,51 @@ class Board:
 
             # Castle
             elif isinstance(piece, King) and abs(initial.col - final.col) == 2:
-                if piece.left_rook:
-                    self.squares[final.row][0].piece = piece.left_rook
-                    self.squares[final.row][4].piece = piece
-                    self.squares[final.row][2].piece = None
+                if final.col - initial.col < 0:
+                    # Queen side castle
+                    rook = self.squares[final.row][3].piece
+                    # Set previous rook position
+                    self.squares[final.row][0].piece = rook
+                    # Remove rook 
                     self.squares[final.row][3].piece = None
-                    piece.left_rook.times_moved -= 1
-                    piece.left_rook = None
-
-                else:
-                    self.squares[final.row][7].piece = piece.right_rook
+                    # Set previous king position
                     self.squares[final.row][4].piece = piece
+                    # Remove king 
+                    self.squares[final.row][2].piece = None
+                else:
+                    # King side castle
+                    rook = self.squares[final.row][5].piece
+                    # Set previous rook position
+                    self.squares[final.row][7].piece = rook
+                    # Remove rook 
                     self.squares[final.row][5].piece = None
+                    # Set previous king position
+                    self.squares[final.row][4].piece = piece
+                    # Remove king 
                     self.squares[final.row][6].piece = None
-                    piece.right_rook.times_moved -= 1
-                    piece.right_rook = None
-
+                # Decrement rook moves
+                rook.times_moved -= 1
+                
+            # All other
             else:
                 self.squares[final.row][final.col].piece = move.captured_piece
                 self.squares[initial.row][initial.col].piece = piece
 
-            # Decrease the number of times the piece has moved
+            # Decrement piece moves
             piece.times_moved -= 1
             return True
-        # Return false if there is no undo to make so we won't change player's turn
+        # Return false if there is no undo to make so we don't change player's turn
         return False
 
 
-    def in_check(self, piece, move):
-   
+    def will_be_check(self, piece, move):
         # Move the piece and check if the new position opens the king to the opponent
         self.move(piece, move)
         
-        for row in range(ROWS):
-            for col in range(COLS):
-                # Check each opponents piece valid moves
-                if self.squares[row][col].has_opponent_piece(piece.color):
-                    p = self.squares[row][col].piece
-                    self.calc_player_moves(p, row, col, is_for_check=True)
-                    for m in p.moves:
-                        if isinstance(m.final.piece, King):
-                            print(row, col)
-                            self.undo_move()
-                            # Reset the opponet saved moves
-                            p.moves = []
-                            return True
-                    # Reset the opponet saved moves
-                    p.moves = []
+        is_check = self.is_king_in_check(piece.color)
         
         self.undo_move()
-        return False
+        return is_check
 
 
     def set_true_en_passant(self, piece):
@@ -416,17 +424,32 @@ class Board:
         
         piece.en_passant = True
 
-
-    # AI
-    def calc_AI_moves(self):
+    
+    def is_king_in_check(self, color):
         for row in range(ROWS):
             for col in range(COLS):
-                # Check if has AI piece which is always black now
-                if self.squares[row][col].has_my_piece(self.opponent_color):
+                # Check each opponents piece valid moves
+                if self.squares[row][col].has_opponent_piece(color):
+                    p = self.squares[row][col].piece
+                    self.calc_player_moves(p, row, col, is_for_check=True)
+                    for m in p.moves:
+                        if isinstance(m.final.piece, King):
+                            # Reset the opponet saved moves
+                            p.moves = []
+                            return True
+                    # Reset the opponet saved moves
+                    p.moves = []
+
+
+    # AI
+    def calc_all_valid_moves(self, color):
+        for row in range(ROWS):
+            for col in range(COLS):
+                if self.squares[row][col].has_my_piece(color):
                     piece = self.squares[row][col].piece
                     self.calc_player_moves(piece, row, col, False)
                     for move in piece.moves:
-                        self.AI_possible_moves.append(move)
+                        self.all_possible_moves.append(move)
                     piece.moves = []
                     
 
