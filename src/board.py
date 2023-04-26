@@ -56,6 +56,7 @@ class Board:
         self.squares[row][6] = Square(row, 6, Knight(c))
         self.squares[row][7] = Square(row, 7, Rook(c))
 
+
     def calc_player_moves(self, piece, row, col, is_for_check):
         '''
             Calculate all possbile moves of a piece
@@ -87,8 +88,6 @@ class Board:
                             if not is_for_check:
                                 if not self.will_be_check(piece, move):
                                     piece.add_move(move)
-                                else:
-                                    break
                             else:
                                 piece.add_move(move)
                         # Break if aquare has my piece
@@ -206,9 +205,6 @@ class Board:
                     if not is_for_check:
                         if not self.will_be_check(piece, move):
                             piece.add_move(move)
-                        else:
-                            # Moving the knight is not possible at all so break
-                            break
                     else:
                         piece.add_move(move)
 
@@ -294,7 +290,8 @@ class Board:
         if piece.color == self.opponent_color:
             return move in self.all_possible_moves
         return move in piece.moves
-    
+
+
     def move(self, piece, move):
         initial, final = move.initial, move.final
         # Check if en passant final location is empty
@@ -327,12 +324,14 @@ class Board:
                 rook = self.squares[initial.row][0].piece
                 self.squares[initial.row][0].piece = None
                 self.squares[initial.row][3].piece = rook
+                move.is_queen_castle = True
             else:
                 # King side castle
                 rook = self.squares[initial.row][7].piece
                 self.squares[initial.row][7].piece = None
                 self.squares[initial.row][5].piece = rook
-            
+                move.is_king_castle = True
+
             self.squares[final.row][final.col].piece = piece
             self.squares[initial.row][initial.col].piece = None
             rook.times_moved += 1
@@ -441,8 +440,8 @@ class Board:
                     p.moves = []
 
 
-    # AI
     def calc_all_valid_moves(self, color):
+        self.all_possible_moves = []
         for row in range(ROWS):
             for col in range(COLS):
                 if self.squares[row][col].has_my_piece(color):
@@ -450,7 +449,10 @@ class Board:
                     self.calc_player_moves(piece, row, col, False)
                     for move in piece.moves:
                         self.all_possible_moves.append(move)
+                    
                     piece.moves = []
+        return self.all_possible_moves
+
                     
 
 

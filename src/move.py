@@ -10,18 +10,37 @@ class Move:
         self.moved_piece = board.squares[self.initial.row][self.initial.col].piece
         self.captured_piece = board.squares[self.final.row][self.final.col].piece
         self.is_enpassant = False
+        self.is_queen_castle = False
+        self.is_king_castle = False
+        self.is_check = False
+
 
     def __str__(self):
+        # Castle move
+        if self.is_king_castle:
+            return "O-O"
+        elif self.is_queen_castle:
+            return "O-O-O"
         # Create chess notation
         abv = self.moved_piece.name[0].upper()
         if self.moved_piece.name == 'knight':
             abv = 'N'
         elif self.moved_piece.name == 'pawn':
             abv = ''
+        # Moving piece name
+        s = f'{abv}'
 
-        s = ''
-        s += f'{abv}{self.col_to_file[self.initial.col]}{self.rank_to_row[self.initial.row]}'
-        s += f' -> {self.col_to_file[self.final.col]}{self.rank_to_row[self.final.row]}'
+        # Add x if it is a capture
+        if self.captured_piece:
+            s += 'x'
+
+        # Final location of the moving piece
+        s += f'{self.col_to_file[self.final.col]}{self.rank_to_row[self.final.row]}'
+        
+        # Add + if the position causes check
+        if self.is_check:
+            s += '+'
+            
         return s
 
     def __eq__(self, other):
