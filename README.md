@@ -20,7 +20,7 @@ A GUI chess game including a simple AI, all written in Python.
 
 <a name="about"></a>
 ## About
-This project includes a full chess engine, gui engine, and an AI engine. The AI engine utilizes the minimax and alpha beta pruning algorithms.
+This project includes a full chess engine, gui engine, and an AI engine. The AI engine utilizes the minimax and alpha beta pruning algorithms with addition of teaching the AI proper positional advantage of each piece.
 
 <a name="demo"></a>
 ## Demo
