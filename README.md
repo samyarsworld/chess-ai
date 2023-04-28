@@ -27,7 +27,7 @@ This project includes a full chess engine, gui engine, and an AI engine. The AI 
 <a name="usage"></a>
 ## Usage
 A link to executable file to play this game is here: For Windows users <a style="color:blue;" href="https://drive.google.com/file/d/1whberk3yM7k9m4i6Gn-LHCxXZ84Q8WeH/view?usp=share_link">CLICK HERE</a>. For Linux users <a style="color:orange;" href="https://drive.google.com/file/d/1acJsgsbm9qi27_SazzMhxmidVgkWVjsD/view?usp=share_link">CLICK HERE</a>. After downloading the zip file, simply unzip and run the executable file.
-Additionally, you can use the following installations to clone and run the file locally on your computer.
+Additionally, you can use the following installation to clone and run the file locally on your computer.
 
 To install this project, make sure you have the correct version of Python and Pygame. Certain versions of pygame are no longer supported on macOS Catalina.
 
