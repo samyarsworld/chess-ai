@@ -23,8 +23,8 @@ This project includes a full chess engine, gui engine, and an AI engine. The AI 
 ## Demo
 | Human vs Human   | Human vs AI (AI is controlling black)  |
 |:----------------------|:------------------|
-|![](./github-static/chess-clip1.gif) | ![](./github-static/chess-clip2.gif) |
-| [human vs human test run](<img src="[github-static/chess-start.png](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4Mjg5YTdkNDczMDNhYzRiMDQ5YzdlMzU0YjM2OTUwZGIxMGU4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EnyTrJyjjwTcAkM862/giphy.gif)"/>) | [human vs AI test run](https://www.youtube.com/watch?v=npUyYXWPDfI) |
+|![](<img src="[github-static/chess-start.png](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4Mjg5YTdkNDczMDNhYzRiMDQ5YzdlMzU0YjM2OTUwZGIxMGU4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EnyTrJyjjwTcAkM862/giphy.gif)"/>) | ![](./github-static/chess-clip2.gif) |
+| [human vs human test run]() | [human vs AI test run](https://www.youtube.com/watch?v=npUyYXWPDfI) |
 
 <a name="usage"></a>
 ## Usage
