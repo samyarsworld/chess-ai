@@ -2,6 +2,8 @@
 A GUI chess game including a simple AI, all written in Python.
 <p align="center">
 <img src="github-static/chess-start.png" width="400"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWM4ZDAwYzg2OGJhNWNkZmIzMTUzZTc5NzZiNjEwMmZkYTdhNjU3NyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UemgyvVLgpZdmFz1AO/giphy.gif" width="400"/>
+
 </p>
 
 ## Index
