@@ -23,7 +23,7 @@ This project includes a full chess engine, gui engine, and an AI engine. The AI 
 ## Demo
 | Human vs Human   | Human vs AI (AI is controlling black)  |
 |:----------------------|:------------------|
-|![](<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4Mjg5YTdkNDczMDNhYzRiMDQ5YzdlMzU0YjM2OTUwZGIxMGU4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EnyTrJyjjwTcAkM862/giphy.gif)" width="400"/>) | ![](./github-static/chess-clip2.gif) |
+|![](<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWM4ZDAwYzg2OGJhNWNkZmIzMTUzZTc5NzZiNjEwMmZkYTdhNjU3NyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UemgyvVLgpZdmFz1AO/giphy.gif" width="400"/>) | ![](./github-static/chess-clip2.gif) |
 | [human vs human test run]() | [human vs AI test run](https://www.youtube.com/watch?v=npUyYXWPDfI) |
 
 <a name="usage"></a>
