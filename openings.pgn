@@ -1,0 +1,516 @@
+<!doctype html>
+
+<html lang="en-US">
+<head>
+
+<base href="/" />
+
+<link rel="mask-icon" href="/favicon.svg" color="blue" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+<link rel="alternate icon" type="image/png" href="/favicon.png" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link rel='stylesheet' href='https://thechessworld.com/wp-content/themes/thechessworld/css/common.new.css' />
+
+<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.4 (Yoast SEO v20.6) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - TheChessWorld</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - TheChessWorld" />
+	<meta property="og:site_name" content="TheChessWorld" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thechessworld.com/#website","url":"https://thechessworld.com/","name":"TheChessWorld","description":"We have many materials and lessons that will help you to learn or improve the skills of the game of chess.","publisher":{"@id":"https://thechessworld.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://thechessworld.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://thechessworld.com/#organization","name":"TheChessWorld.com","url":"https://thechessworld.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://thechessworld.com/#/schema/logo/image/","url":"https://thechessworld.com/wp-content/uploads/2022/02/logo.png","contentUrl":"https://thechessworld.com/wp-content/uploads/2022/02/logo.png","width":306,"height":76,"caption":"TheChessWorld.com"},"image":{"@id":"https://thechessworld.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/thechessworld/","https://twitter.com/thechessworld","https://www.pinterest.com/thechessworld/","https://www.youtube.com/channel/UCHI1RUhRqlIA79-G-bhauDA"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thechessworld.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='classic-theme-styles-css' href='https://thechessworld.com/wp-includes/css/classic-themes.min.css?ver=6.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cookie-law-info-css' href='https://thechessworld.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://thechessworld.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.0.8' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://thechessworld.com/wp-content/plugins/rocket-lazy-load/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type='text/javascript' src='https://thechessworld.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://thechessworld.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"1","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"ccpa_gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#2d6db4","button_1_button_hover":"#245790","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#2d6db4","button_7_button_hover":"#245790","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/thechessworld.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thechessworld.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.0.8' id='cookie-law-info-js'></script>
+<script type='text/javascript' id='cookie-law-info-ccpa-js-extra'>
+/* <![CDATA[ */
+var ccpa_data = {"opt_out_prompt":"Do you really wish to opt out?","opt_out_confirm":"Confirm","opt_out_cancel":"Cancel"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://thechessworld.com/wp-content/plugins/cookie-law-info/legacy/admin/modules/ccpa/assets/js/cookie-law-info-ccpa.js?ver=3.0.8' id='cookie-law-info-ccpa-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thechessworld.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thechessworld.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><link rel="stylesheet" href="https://thechessworld.com/wp-content/themes/thechessworld/css/main.css" />
+
+<script type="text/javascript" src="/wp-content/themes/thechessworld/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/thechessworld/js/common.js"></script>
+
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBFVXZR');
+</script>
+
+</head>
+
+<body>
+
+<div id="page" class="site">
+  <div id="header">
+    <div class="wrapper">
+      <a class="logo" href="/">TheChessWorld.com</a>
+      <div class="search-area">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://thechessworld.com/">
+          <div class="options">
+            <div class="switch icon"></div>
+            <div class="selectors hidden">
+              <label>
+                <input type="checkbox" id="search-products-check" value="products" checked />
+                <span>Products</span>
+              </label>
+              <label>
+                <input type="checkbox" id="search-posts-check" value="posts" checked />
+                <span>Posts</span>
+              </label>
+            </div>
+          </div>
+          <div class="field">
+            <input type="text" name="s" class="search-field" placeholder="Search" value="" />
+          </div>
+          <input class="btn" type="submit" id="searchsubmit" value="Search" />
+        </form>
+      </div>
+      <div class="socials">
+        <a class="facebook" target="_blank" rel="nofollow" href="https://www.facebook.com/thechessworld/">TheChessWorld Facebook</a>
+        <a class="twitter" target="_blank" rel="nofollow" href="https://twitter.com/thechessworld/">TheChessWorld Twitter</a>
+        <a class="pinterest" target="_blank" rel="nofollow" href="https://www.pinterest.com/thechessworld/">TheChessWorld Pinterest</a>
+        <a class="youtube" target="_blank" rel="nofollow" href="https://www.youtube.com/thechessworld">TheChessWorld YouTube</a>
+      </div>
+    </div>
+  </div>
+  <div id="menu" class="menu">
+    <div class="wrapper">
+      <ul>
+        <li><a href="/start-here/">Start Here</a></li>
+        <li><a href="/play">Play</a></li>
+        <li>
+          <a href="/learn/">Learn</a>
+          <ul>
+            <li><a href="/category/training-techniques/">Training Techniques</a></li>
+            <li><a href="/category/openings/">Openings</a></li>
+            <li><a href="/category/middle-game/">Middlegame</a></li>
+            <li><a href="/category/endgame/">Endgames</a></li>
+            <li><a href="/category/general-information/">General Information</a></li>
+          </ul>
+        </li>
+        <li><a href="https://thechessworld.com/tournaments/">Tournaments</a></li>
+        <li><a href="/academy/">Academy</a></li>
+        <li><a href="https://thechessworld.com/supercharge/members/">21-Day Course</a></li>
+        <li><a href="/store/" target="_blank">Store</a>
+          <ul>
+            <li><a href="/store/courses?category=thechessworld">TheChessWorld</a></li>
+            <li><a href="/store/courses?category=tcw-academy">TCW Academy</a></li>
+            <li><a href="/store/courses?category=chess-teacher">Chess-Teacher</a></li>
+            <li><a href="/store/courses?category=modern-chess">Modern Chess</a></li>
+            <li><a href="/store/courses?category=romans-chess-lab">Roman Chess Lab</a></li>
+            <li><a href="/store/courses?category=foxy-chess">Foxy Chess</a></li>
+            <li><a href="/store/courses?category=grandmaster-magazine">Grandmaster Magazine</a></li>
+            <li><a href="/store/courses?category=chesslecture">ChessLecture</a></li>
+            <li><a href="/store/courses?category=icc">ICC</a></li>
+            <li><a href="/store/courses?category=rules-chess-strategies">Rules Chess Strategies</a></li>
+            <li><a href="/store/courses?category=other-courses">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="/store/contact-us/">Contact</a></li>
+      </ul>
+      <div class="menu-caption"></div>
+      <a href="/" class="logo">TheChessWorld.com</a>
+      <div class="search-area-mobile">
+        <div class="options">
+          <div class="switch icon"></div>
+          <div class="selectors">
+            <label>
+              <input type="checkbox" id="search-products-check-m" value="products" checked />
+              <span>Products</span>
+            </label>
+            <label>
+              <input type="checkbox" id="search-posts-check-m" value="posts" checked />
+              <span>Posts</span>
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <form role="search" method="get" id="searchform" class="searchform" action="https://thechessworld.com/">
+            <input type="text" name="s" placeholder="Search" />
+            <input class="btn" type="submit" id="searchsubmitmobile" placeholder="Search" value="" />
+          </form>
+        </div>
+        <div class="toggler">Close</div>
+      </div>
+    </div>
+  </div>
+	<div id="content" class="site-content">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main">    
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://thechessworld.com/wp-content/plugins/rocket-lazy-load/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+    
+<style>
+h1 {
+  margin: 20px 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 26px !important;
+}
+h2 {
+  margin: 30px 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 26px !important;
+}
+.popular-posts {
+  margin: 20px 0 0 0;
+}
+</style>
+
+<div class="content-area sidebar bg">
+  <div class="wrapper">
+    <div class="area">
+      <div class="board">
+        <h1>This page was not found</h1>
+        <p style="line-height: 140%;">Sorry, we were unable to find the chess page that you were looking for...  :( </br> But do not worry, we have good news for you! You can start improving your chess today:</p>
+        <h2>Popular Posts</h2>
+        <div class="popular-posts">
+                    <div class="post-holder">
+            <div class="title"><a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">Chess Openings — Top 10 Played by Garry Kasparov</a></div>
+            <div class="meta">
+              <div class="author-avatar">
+                <img alt="Yury Markushin" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/authors/Yury-Markushin.jpg" /><noscript><img alt="Yury Markushin" src="/wp-content/uploads/authors/Yury-Markushin.jpg" /></noscript>              </div>
+              <div class="date-n-author">
+                <div class="author">
+                  Yury Markushin                </div>
+                <div class="date">01.13.2017</div>
+              </div>
+            </div>
+            <div class="frame">
+              <div class="image">
+                <a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">
+                                  <img width="1200" height="628" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20628'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="Garry Kasparov" decoding="async" loading="lazy" data-lazy-srcset="https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av.jpg 1200w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-300x157.jpg 300w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-768x402.jpg 768w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-1024x536.jpg 1024w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av.jpg" /><noscript><img width="1200" height="628" src="https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av.jpg" class="attachment-full size-full wp-post-image" alt="Garry Kasparov" decoding="async" loading="lazy" srcset="https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av.jpg 1200w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-300x157.jpg 300w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-768x402.jpg 768w, https://thechessworld.com/wp-content/uploads/2017/01/top-10-chess-openings-played-by-garry-kasparov-av-1024x536.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>                                </a>
+                <div class="more"><a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">Continue reading</a></div>
+              </div>
+              <div class="content">
+                <div class="title-inner"><a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">Chess Openings — Top 10 Played by Garry Kasparov</a></div>
+                <div class="date-n-author-inner">
+                  <div class="author">Yury Markushin</div>
+                  <div class="date">01.13.2017</div>
+                </div>
+                <div class="text">
+                  <p>Garry Kasparov is considered to be the greatest chess player of all time. From 1986 to 2005 he was ranked the world’s number 1 for 225 out of 228 months! Kasparov holds a record for winning 15 consecutive tournaments. He is also the youngest ever undisputed world champion at age of 22. A great deal of his chess success should be contributed to his <a href="https://thechessworld.com/articles/openings/opening-preparation-for-club-players-part-ii/">opening preparation</a>. Kasparov did such a great job analyzing positions at how he has won many of his games due to home preparation. Here are the top 10 openings Kasparov plays. Which have become popular openings among chess players around the world.</p>
+                </div>
+                <div class="more"><a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">Continue reading</a></div>
+              </div>
+              <div class="more-after"><a href="https://thechessworld.com/articles/top-10-chess-openings-played-by-garry-kasparov/">Continue reading</a></div>
+            </div>
+          </div>
+                    <div class="post-holder">
+            <div class="title"><a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">10 Best Chess Games by Wesley So</a></div>
+            <div class="meta">
+              <div class="author-avatar">
+                <img alt="Yury Markushin" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/authors/Yury-Markushin.jpg" /><noscript><img alt="Yury Markushin" src="/wp-content/uploads/authors/Yury-Markushin.jpg" /></noscript>              </div>
+              <div class="date-n-author">
+                <div class="author">
+                  Yury Markushin                </div>
+                <div class="date">03.10.2017</div>
+              </div>
+            </div>
+            <div class="frame">
+              <div class="image">
+                <a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">
+                                  <img width="1200" height="628" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20628'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="Wesley So" decoding="async" loading="lazy" data-lazy-srcset="https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so.jpg 1200w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-300x157.jpg 300w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-768x402.jpg 768w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-1024x536.jpg 1024w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-263x138.jpg 263w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so.jpg" /><noscript><img width="1200" height="628" src="https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so.jpg" class="attachment-full size-full wp-post-image" alt="Wesley So" decoding="async" loading="lazy" srcset="https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so.jpg 1200w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-300x157.jpg 300w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-768x402.jpg 768w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-1024x536.jpg 1024w, https://thechessworld.com/wp-content/uploads/2017/03/10-best-chess-games-by-wesley-so-263x138.jpg 263w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>                                </a>
+                <div class="more"><a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">Continue reading</a></div>
+              </div>
+              <div class="content">
+                <div class="title-inner"><a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">10 Best Chess Games by Wesley So</a></div>
+                <div class="date-n-author-inner">
+                  <div class="author">Yury Markushin</div>
+                  <div class="date">03.10.2017</div>
+                </div>
+                <div class="text">
+                  <p>Wesley So is a Filipino <a href="https://thechessworld.com/articles/general-information/40-facts-about-chess-most-people-dont-know/">chess</a> prodigy currently representing the US. He is the number 2 rated <a href="https://thechessworld.com/articles/general-information/5-things-you-should-never-say-to-a-chess-player/">chess player</a> in <a href="https://thechessworld.com/articles/general-information/7-embarrassing-grandmaster-defeats-and-the-world-champions-too/">the world</a> behind only Magnus Carlsen. He set a record by being the youngest <a href="https://thechessworld.com/articles/middle-game/chess-strategy-for-club-players-complete-guide/">player</a> to cross 2600, previously held by Carlsen. So has a very aggressive and tactical style, and likes to sacrifice his queen or any other pieces for starting a devastating <a href="https://thechessworld.com/articles/openings/counter-attacking-in-sicilian-defense-scheveningen-setup/">attack</a>. At the same time, his play is very solid and reliable. Today we will see some of his best games.</p>
+                </div>
+                <div class="more"><a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">Continue reading</a></div>
+              </div>
+              <div class="more-after"><a href="https://thechessworld.com/articles/openings/10-best-chess-games-wesley/">Continue reading</a></div>
+            </div>
+          </div>
+                    <div class="post-holder">
+            <div class="title"><a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">Crushing French Defense &#8211; The Korchnoi Gambit</a></div>
+            <div class="meta">
+              <div class="author-avatar">
+                <img alt="WGM Raluca Sgîrcea, IM Renier Castellanos" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/authors/WGM-Raluca-Sgîrcea-IM-Renier-Castellanos.jpg" /><noscript><img alt="WGM Raluca Sgîrcea, IM Renier Castellanos" src="/wp-content/uploads/authors/WGM-Raluca-Sgîrcea-IM-Renier-Castellanos.jpg" /></noscript>              </div>
+              <div class="date-n-author">
+                <div class="author">
+                  WGM Raluca Sgîrcea, IM Renier Castellanos                </div>
+                <div class="date">02.11.2015</div>
+              </div>
+            </div>
+            <div class="frame">
+              <div class="image">
+                <a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">
+                                  <img width="883" height="463" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20883%20463'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="french defense" decoding="async" loading="lazy" data-lazy-src="https://thechessworld.com/wp-content/uploads/2015/02/french.jpg" /><noscript><img width="883" height="463" src="https://thechessworld.com/wp-content/uploads/2015/02/french.jpg" class="attachment-full size-full wp-post-image" alt="french defense" decoding="async" loading="lazy" /></noscript>                                </a>
+                <div class="more"><a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">Continue reading</a></div>
+              </div>
+              <div class="content">
+                <div class="title-inner"><a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">Crushing French Defense &#8211; The Korchnoi Gambit</a></div>
+                <div class="date-n-author-inner">
+                  <div class="author">Yury Markushin</div>
+                  <div class="date">02.11.2015</div>
+                </div>
+                <div class="text">
+                  <p>The French is among the most popular defenses against <b>1.e4 </b>and for a good reason. It is a very solid choice, but at the same time quite aggressive. Black&#8217;s counterplay on either wing (this depends on the specific variation) offers him an opportunity to <i><b>unbalance the game</b></i> and take white into a very sharp and double-edged battle right from the very first moves.</p>
+                </div>
+                <div class="more"><a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">Continue reading</a></div>
+              </div>
+              <div class="more-after"><a href="https://thechessworld.com/articles/openings/crushing-french-defense-the-korchnoi-gambit/">Continue reading</a></div>
+            </div>
+          </div>
+                  </div>
+        <!--
+        <div class="adv-area">
+          <div class="caption">
+                      </div>
+          <a class="image" href="/supercharge/" target="_blank">
+            <img alt="21 Days Supercharge and Positional Package" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/2017/01/21-days-supercharge-and-positional-package.jpg" /><noscript><img alt="21 Days Supercharge and Positional Package" src="/wp-content/uploads/2017/01/21-days-supercharge-and-positional-package.jpg" /></noscript>
+          </a>
+	        <div class="holder">
+                        <a href="/supercharge/" target="_blank" class="button">Start Chess Training!</a><br />
+            <a href="/supercharge/" target="_blank" class="link">Click Here to Start Your Training</a>
+	        </div>
+        </div>
+        -->
+      </div>
+    </div>
+    
+<div id="sidebar" class="sidebar">
+
+  <div class="subscribe-primary">
+    <div class="title">
+      <b>Join</b> the FREE Road to 2200 Masterclass (and learn how to Attack Like a Chess Master)
+    </div>
+    <div class="klaviyo-form-JFzk6i"></div>
+    <div class="lock-icon privacy-note">We value your privacy</div>
+  </div>
+  
+  <div class="banner-inline">
+    <a data-bg="https://thechessworld.com/play/banners/academy/academy-banner-s2.png" class="rocket-lazyload" href="https://thechessworld.com/supercharge/" target="_blank" style="">
+      <span style="background-color: #de7715; font: bold 16px Arial;">Supercharge Your Chess in <b style="font-size: 20px;">21</b> Days!</span>
+    </a>
+  </div>
+  
+  <div class="banner-inline">
+    <a data-bg="https://thechessworld.com/play/banners/academy/want_to_gain_200_elo_in_30_days_275__450.jpg" class="rocket-lazyload" href="https://chesslance.com/" target="_blank" style=" height: 450px;">
+      <span style="color: transparent; text-indent: -1000%; overflow: hidden;">Join Academy Today!</span>
+    </a>
+  </div>
+  
+</div>  </div>
+</div>
+
+<script>
+window.lazyLoadOptions = {
+  elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+  data_src: "lazy-src",
+  data_srcset: "lazy-srcset",
+  data_sizes: "lazy-sizes",
+  class_loading: "lazyloading",
+  class_loaded: "lazyloaded",
+  threshold: 300,
+  callback_loaded: function(element) {
+    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+      if (element.classList.contains("lazyloaded") ) {
+        if (typeof window.jQuery != "undefined") {
+          if (jQuery.fn.fitVids) {
+            jQuery(element).parent().fitVids();
+          }
+        }
+      }
+    }
+  }
+};
+
+window.addEventListener('LazyLoad::Initialized', function (e) {
+  var lazyLoadInstance = e.detail.instance;
+  if (window.MutationObserver) {
+    var observer = new MutationObserver(function(mutations) {
+      var image_count = 0;
+      var iframe_count = 0;
+      var rocketlazy_count = 0;
+      mutations.forEach(function(mutation) {
+          for (i = 0; i < mutation.addedNodes.length; i++) {
+              if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                  return;
+              }
+
+             if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                  return;
+              }
+
+              images = mutation.addedNodes[i].getElementsByTagName('img');
+              is_image = mutation.addedNodes[i].tagName == "IMG";
+              iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+              is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+              rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+              image_count += images.length;
+        iframe_count += iframes.length;
+        rocketlazy_count += rocket_lazy.length;
+
+              if(is_image){
+                  image_count += 1;
+              }
+
+              if(is_iframe){
+                  iframe_count += 1;
+              }
+          }
+      } );
+
+      if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+          lazyLoadInstance.update();
+      }
+    });
+
+    var b      = document.getElementsByTagName("body")[0];
+    var config = { childList: true, subtree: true };
+
+    observer.observe(b, config);
+  }
+}, false);
+</script>
+
+<script data-no-minify="1" async src="https://thechessworld.com/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
+<script>function lazyLoadThumb(e){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<div class="play"></div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script>                                                                                                                     
+
+
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	</div><!-- #content -->
+    
+  <div id="footer" class="site-footer">
+    <div class="wrapper"> 
+      <div class="column">
+        <div class="caption">Company</div>
+        <ul>
+          <li><a href="/help/about/">About Us</a></li>
+          <li><a href="/store/contact-us/">Contact Us</a></li>
+          <li><a href="/store/faq/">F.A.Q.</a></li>
+          <li><a href="/supercharge/partnership/">Partnership</a></li>
+          <li><a href="/latest-posts/">Blog</a></li>
+          <li><a href="/grandmasters/">Grandmasters</a></li>
+          <li><a href="/jobs/">Jobs</a></li>
+        </ul>
+        <div class="logo-gray"></div>
+      </div>
+      <div class="column">
+        <div class="caption">Chess Resources</div>
+        <ul>
+          <li><a target="_blank" href="/academy/">TCW Academy</a></li>
+          <li><a target="_blank" href="/store/">The Store</a></li>
+          <li><a target="_blank" href="/supercharge/">21 Day Course</a></li>
+          <li><a target="_blank" href="/play/">Play Computer</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <div class="caption">Top Resources</div>
+        <ul>
+          <li><a target="_blank" href="/store/?product_cat=thechessworld&s=&post_type=product&category=opening-lab">Opening Lab</a></li>
+          <li><a target="_blank" href="/store/?product_cat=thechessworld&s=&post_type=product&category=mastermind">Mastermind</a></li>
+          <li><a target="_blank" href="/store/?product_cat=thechessworld&s=&post_type=product&category=chess-mastery-series">Chess Mastery Series</a></li>
+          <li><a target="_blank" href="/store/courses/?category=tcw-academy/">Academy</a></li>
+        </ul>
+      </div>
+      <div class="column last">
+        <div class="caption">100% Secure Purchase</div>
+        <div class="badges">
+          <img alt="Money Back" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/images/svg/30day-money-back.svg" /><noscript><img alt="Money Back" src="/images/svg/30day-money-back.svg" /></noscript>
+          <img alt="PayPal" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/images/svg/paypal.svg" /><noscript><img alt="PayPal" src="/images/svg/paypal.svg" /></noscript>
+          <img alt="SSL" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/images/svg/ssl-secure.svg" /><noscript><img alt="SSL" src="/images/svg/ssl-secure.svg" /></noscript>
+          <img alt="Comodo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="/images/svg/comodo-ssl.svg" /><noscript><img alt="Comodo" src="/images/svg/comodo-ssl.svg" /></noscript>
+        </div>
+        <div class="support-label">
+          <span>Customer Support</span>
+          <a class="phone" href="tel:14106569104">+1 (410) 656-9104</a>
+        </div>
+        <div class="support-label">
+          <span>Email Us</span>
+          <span class="email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fb888e8b8b94898fbb8f939e98939e88888c9489979fd5989496">[email&#160;protected]</a></span>
+        </div>
+        <a class="link-btn" href="/store/contact-us/">Contact Us</a>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="site-info">
+        <div class="social">
+          <a href="https://www.facebook.com/thechessworld/" target="_blank" class="facebook">Facebook</a>
+          <a href="https://twitter.com/thechessworld/" target="_blank" class="twitter">Twitter</a>
+          <a href="/store/contact-us/" target="_blank" class="mail">Mail</a>
+          <a href="https://www.pinterest.com/thechessworld/" target="_blank" class="pinterest">Pinterest</a>
+          <a href="https://www.youtube.com/thechessworld" target="_blank" class="youtube">Youtube</a>
+        </div>
+        <div class="copyright">Copyright 2007-2023 &bullet; TheChessWorld.com &bullet; All Rights Reserved</div>
+        <div class="links">
+          <a href="/store/cookie-policy/">Cookie Policy</a> |
+          <a href="/store/acceptable-use-policy/">Acceptable Use Policy</a> |
+          <a href="/store/privacy-policy/">Privacy Policy</a> |
+          <a href="/store/terms-and-conditions/">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=KEGCRr"></script>
+  
+  </div><!-- #page -->
+  
+    
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7beb557b4a8f1875","version":"2023.3.0","b":1,"token":"67932012d4e347b2b034d448a87c68fc","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
