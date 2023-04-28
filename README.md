@@ -37,25 +37,27 @@ To install this project, make sure you have the correct version of Python and Py
 - Follow the code below to create virtual environment and install the necessary libraries.
 (Currently tested on Python 3.7.9 with Pygame 2.0.0dev8 and Python 3.8.2 with Pygame 2.0.0 on macOS Catalina)
 ```
-git clone https://github.com/boosungkim/python-chess.git
-cd python-chess
+git clone https://github.com/samyarsworld/chess-ai.git
+cd chess-ai
 python3 -m venv venv
 source venv/bin/activate
 pip install pygame
+cd src
+python3 -W ignore main.py
 ```
 
 <a name="commands"></a>
 ### Commands
-- To start the game, run `python3 -W ignore chess_gui.py`, then select the game mode you want to play in the command line.
+- To start the game, run `python3 -W ignore main.py`, while in the src directory. While you are in the game:
 - To undo a move, press `u`.
 - To reset the board, press `r`.
 
 <a name="credits"></a>
-## Credits
-All three engines were written by Boo Sung Kim, but the move log and the GUI engine code was initially inspired by Eddie Sharick and the AI engine was originally inspired by Sebastian Lague's pseudocode.
+## Contributors
 
-Special thanks to Savid for helping me beta test the chess game many times.
+- SAMYAR FARJAM (https://github.com/samyarsworld)
 
 <a name="license"></a>
 ## License
-This project is licensed under the GNU GPLv3 License - see the [LICENSE](./LICENSE) file for details.
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for details.
