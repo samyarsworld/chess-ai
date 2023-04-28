@@ -10,6 +10,7 @@ def find_ai_move(board, algorithm, depth=2):
     Find ai moves associated with the chosen engine
     '''
     if algorithm == 'minimax':
+        print(depth)
         _, move = minimax(board, depth, alpha=float('-inf'), beta=float('inf'), maximizingPlayer=False)
 
     elif algorithm == 'greedy':
@@ -195,13 +196,15 @@ def evaluate_board_on_material(board):
 
 def evaluate_board_on_material_and_position(board):
     '''
-    Sum total score at the current board state including positional advantage
+    Sum the total score at the current board state including positional advantage
     '''
     score = 0
     for row in range(ROWS):
         for col in range(COLS):
             piece =  board.squares[row][col].piece
             if piece:
-                score += piece.value
+                key = f"{piece.name}_{piece.color}"
+                additional_value = PIECE_POSITIONAL_VALUES[key][row][col] * 0.02
+                score += (piece.value + additional_value)
 
     return score
