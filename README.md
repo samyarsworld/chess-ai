@@ -143,6 +143,8 @@ Here are some possible suggestions to make a improve the gameplay and add more u
 
 - SAMYAR FARJAM (https://github.com/samyarsworld)
 
+If you'd like to contribute to our Chess game, please feel free to submit a pull request or open an issue on our [GitHub repository](https://github.com/samyarsworld/chess-ai). We welcome all contributions and feedback.
+
 <a name="license"></a>
 ## License
 
