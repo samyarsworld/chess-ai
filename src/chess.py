@@ -5,7 +5,6 @@ from game import Game
 from square import Square
 from move import Move
 from chessAi import find_ai_move
-import asyncio
 pygame.init()
 
 
@@ -30,7 +29,7 @@ class Chess:
         checkmate_text_rect.center = self.screen.get_rect().center
         stalemate_text_rect.center = self.screen.get_rect().center
 
-    async def mainloop(self, player, difficulty):
+    def mainloop(self, player, difficulty):
         screen = self.screen
         game = self.game
         board = self.game.board
@@ -101,7 +100,6 @@ class Chess:
                 game.change_turn()
                 # Update the screen
                 pygame.display.update()
-                await asyncio.sleep(0)
                 continue
 
             
@@ -175,7 +173,7 @@ class Chess:
                         # Restart game
                         if event.key == pygame.K_r:
                             main = Chess()
-                            await main.mainloop(player, difficulty)
+                            main.mainloop(player, difficulty)
 
                         # Undo move
                         if event.key == pygame.K_u:
@@ -195,7 +193,6 @@ class Chess:
             
                 # Update the screen
                 pygame.display.update()
-                await asyncio.sleep(0)
 
 
         # Game ended
@@ -207,9 +204,5 @@ class Chess:
                     # Restart game
                     if event.key == pygame.K_r:
                         main = Chess()
-                        await main.mainloop(player, difficulty)
+                        main.mainloop(player, difficulty)
 
-
-# if __name__ == '__main__':
-#     main = Main()
-#     main.mainloop()

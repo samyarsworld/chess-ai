@@ -2,7 +2,6 @@ import pygame, sys
 from button import Button
 from const import *
 from chess import Chess
-import asyncio
 
 pygame.init()
 
@@ -22,7 +21,7 @@ def get_font(size):
     return pygame.font.Font("assets/font.ttf", size)
 
     
-async def options():
+def options():
     while True:
         screen.fill((0,0, 10))
 
@@ -52,27 +51,25 @@ async def options():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if EASY_BUTTON.checkForInput(OPTIONS_MOUSE_POS):
                     main_class = Chess()
-                    await main_class.mainloop('AI', 1)
+                    main_class.mainloop('AI', 1)
 
                 if MEDIUM_BUTTON.checkForInput(OPTIONS_MOUSE_POS):
                     main_class = Chess()
-                    await main_class.mainloop('AI', 2)
+                    main_class.mainloop('AI', 2)
                 
                 if HARD_BUTTON.checkForInput(OPTIONS_MOUSE_POS):
                     main_class = Chess()
-                    await main_class.mainloop('AI', 3)
+                    main_class.mainloop('AI', 3)
 
                 if BACK_BUTTON.checkForInput(OPTIONS_MOUSE_POS):
-                    await main_menu()
+                    main_menu()
 
         pygame.display.update()
-        await asyncio.sleep(0)
        
 
-async def main_menu():
+def main_menu():
     while True:
         screen.fill((10,0, 0))
-
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
@@ -104,20 +101,19 @@ async def main_menu():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if PLAY_BUTTON.checkForInput(MENU_MOUSE_POS):
                     main_class = Chess()
-                    await main_class.mainloop(PLAYER, DIFFICULTY)
+                    main_class.mainloop(PLAYER, DIFFICULTY)
 
                 if PLAYER_BUTTON.checkForInput(MENU_MOUSE_POS):
                     main_class = Chess()
-                    await main_class.mainloop('human', '')
+                    main_class.mainloop('human', '')
 
                 if OPTIONS_BUTTON.checkForInput(MENU_MOUSE_POS):
-                    await options()
+                    options()
                 if QUIT_BUTTON.checkForInput(MENU_MOUSE_POS):
                     pygame.quit()
                     sys.exit()
 
         pygame.display.update()
-        await asyncio.sleep(0)
 
 if __name__ == '__main__':
-    asyncio.run(main_menu())
+    main_menu()
