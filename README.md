@@ -2,25 +2,6 @@
 
 ## A fully functional chess game with the option of playing against 3 different AI powered difficulties with the computer.
 
-## Main
-This is a chess game built using Python and Pygame that incorporates all standard chess rules and functionalities such as unpassant, castles, checks, promotions, and checkmates. In addition to these features, the game includes an AI move calculation system that allows the computer to make informed decisions about its moves based on the current state of the board. Main features include:
-
-* Class based design for more scalable and structured code
-* Various algorithm implementation such as valid move calculation
-* Implemenation of Minimax algorithm for move score calculation, optimzed with Alpha-Beta Pruning
-* Various move visualization
-* Sound and image implementation
-
-## UI review
-A GUI chess game including a simple AI, all written in Python.
-<p align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWM4ZDAwYzg2OGJhNWNkZmIzMTUzZTc5NzZiNjEwMmZkYTdhNjU3NyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UemgyvVLgpZdmFz1AO/giphy.gif" width="600"/>
-</p>
-
-<p align="center">
-<img src="github-static/main.png" width="600"/>
-</p>
-
-
 ## Index
 1. [About](#about)
 2. [Demo](#demo)
@@ -29,17 +10,33 @@ A GUI chess game including a simple AI, all written in Python.
     * [Commands](#commands)
 4. [Credits](#credits)
 5. [License](#license)
+ 
+## Main
+
 
 <a name="about"></a>
 ## About
-This project includes a full chess engine, gui engine, and an AI engine. The AI engine utilizes the minimax and alpha beta pruning algorithms with addition of teaching the AI proper positional advantage of each piece.
+This is a chess game built using Python and Pygame that incorporates all standard chess rules and functionalities such as unpassant, castles, checks, promotions, and checkmates. In addition to these features, the game includes an AI move calculation system that allows the computer to make informed decisions about its moves based on the current state of the board. The AI engine utilizes the minimax and alpha beta pruning algorithms with addition of teaching the AI proper positional advantage of each piece. Main features include:
+
+* Class based design for more scalable and structured code
+* Various algorithm implementation such as valid move calculation
+* Implemenation of Minimax algorithm for move score calculation, optimzed with Alpha-Beta Pruning
+* Various move visualization
+* Sound and image implementation
 
 <a name="demo"></a>
 ## Demo
+A GUI chess game including a simple AI, all written in Python.
+<p align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWM4ZDAwYzg2OGJhNWNkZmIzMTUzZTc5NzZiNjEwMmZkYTdhNjU3NyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/UemgyvVLgpZdmFz1AO/giphy.gif" width="600"/>
+</p>
+
+<p align="center">
+<img src="github-static/main.png" width="600"/>
+</p>
+
 | Human vs Human   | Human vs AI (AI is controlling black)  |
 |:----------------------|:------------------|
 | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4Mjg5YTdkNDczMDNhYzRiMDQ5YzdlMzU0YjM2OTUwZGIxMGU4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EnyTrJyjjwTcAkM862/giphy.gif" width="420"  frameBorder="0" class="giphy-embed" allowFullScreen /> | <img src="https://media.giphy.com/media/YNZ1U9FB1VM9KDmdsG/giphy.gif" width="420" frameBorder="0" class="giphy-embed" allowFullScreen /> |
-
 
 
 <a name="usage"></a>
