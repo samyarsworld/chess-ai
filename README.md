@@ -131,7 +131,7 @@ Here are some possible suggestions to make a improve the gameplay and add more u
 
 
 <a name="credits"></a>
-## Contributors
+## Credits
 
 - SAMYAR FARJAM (https://github.com/samyarsworld)
 
