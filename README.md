@@ -5,16 +5,17 @@
 ## Index
 1. [About](#about)
 2. [Demo](#demo)
-3. [Usage](#usage)
+3. [Technologies](#tech)
+4. [Usage](#usage)
     * [Installation](#installation)
     * [Game Controls](#controls)
     * [Commands](#commands)
-4. [Developer Features](#dev)
-5. [Future Improvements](#future)
+5. [Developer Features](#dev)
+6. [Future Improvements](#future)
     * [Efficiency and AI Power](#power)
     * [Gameplay](#gameplay)
-6. [Credits](#credits) 
-7. [License](#license)
+7. [Credits](#credits) 
+8. [License](#license)
  
 
 <a name="about"></a>
@@ -41,6 +42,13 @@ A GUI chess game including a simple AI, all written in Python.
 |:----------------------|:------------------|
 | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY4Mjg5YTdkNDczMDNhYzRiMDQ5YzdlMzU0YjM2OTUwZGIxMGU4ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/EnyTrJyjjwTcAkM862/giphy.gif" width="420"  frameBorder="0" class="giphy-embed" allowFullScreen /> | <img src="https://media.giphy.com/media/YNZ1U9FB1VM9KDmdsG/giphy.gif" width="420" frameBorder="0" class="giphy-embed" allowFullScreen /> |
 
+
+<a name="tech"></a>
+## Technologies
+- Python
+- Pygame
+- Pyinstaller
+- Google Drive
 
 <a name="usage"></a>
 ## Usage
