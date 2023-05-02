@@ -79,7 +79,7 @@ On the main menu you have the option to choose a player vs player game, which yo
 
 <a name="dev"></a>
 ## Developer Features
-Here are some technical aspects that was used to build and design this project:
+Here are some technical considerations that was used to build and design this project:
 
 **Built with Python and Pygame Libraries:** Your chess app was built using the Python programming language and the Pygame library, which provided the necessary tools for developing the game's graphical interface and handling user input.
 
