@@ -9,14 +9,13 @@
     * [Installation](#installation)
     * [Game Controls](#controls)
     * [Commands](#commands)
-4. [Future Improvements](#future)
+5. [Developer Features](#dev)
+6. [Future Improvements](#future)
     * [Efficiency and AI Power](#power)
     * [Gameplay](#gameplay)
-6. [Credits](#credits) 
-7. [License](#license)
+7. [Credits](#credits) 
+8. [License](#license)
  
-## Main
-
 
 <a name="about"></a>
 ## About
@@ -45,7 +44,7 @@ A GUI chess game including a simple AI, all written in Python.
 
 <a name="usage"></a>
 ## Usage
-A link to executable file to play this game is here: For Windows users <a style="color:blue;" href="https://drive.google.com/file/d/1whberk3yM7k9m4i6Gn-LHCxXZ84Q8WeH/view?usp=share_link">CLICK HERE</a>. For Linux users <a style="color:orange;" href="https://drive.google.com/file/d/1acJsgsbm9qi27_SazzMhxmidVgkWVjsD/view?usp=share_link">CLICK HERE</a>. After downloading the zip file, simply unzip and run the executable file.
+A link to executable file to play this game is here: For Windows users <a style="color:blue;" href="https://drive.google.com/file/d/10omrOwOEGRWuktQmulFdMlf-dh1gP57q/view?usp=share_link">CLICK HERE</a>. For Linux users <a style="color:orange;" href="https://drive.google.com/file/d/1fv38zVT_72w5eTOCWYMTKEJs6T6PzNjM/view?usp=share_link">CLICK HERE</a>. After downloading the zip file, simply unzip and run the executable file.
 Additionally, you can use the following installation to clone and run the file locally on your computer.
 
 To install this project, make sure you have the correct version of Python and Pygame.
@@ -76,6 +75,21 @@ On the main menu you have the option to choose a player vs player game, which yo
 - To start the game, run `python3  main.py` (or hit the run command on your chosen IDE), while in the src directory. While you are in the game:
 - To undo a move, press `u`.
 - To reset the board, press `r`.
+
+
+<a name="dev"></a>
+## Developer Features
+Here are some technical aspects that was used to build and design this project:
+
+**Built with Python and Pygame Libraries:** Your chess app was built using the Python programming language and the Pygame library, which provided the necessary tools for developing the game's graphical interface and handling user input.
+
+**Used Various Pygame Methods and Functions:** In order to create the game's user interface, you utilized various Pygame methods and functions such as display, font, mouse, blit, events, and render. These methods allowed you to create and manipulate visual elements such as game pieces, the game board, and text displays.
+
+**Created Multiple Classes to Organize the Code:** To make your code more modular and easier to manage, you created several classes to represent different elements of the game. These classes included the game itself, the game board, each individual game piece, each square on the board, and each individual move that can be made in the game.
+
+**Implemented Inheritance to Streamline Code:** In order to avoid repeating code and improve code efficiency, you implemented inheritance on the game pieces. By creating a parent class for all game pieces and then creating child classes for each specific piece type (such as the rook, bishop, or queen), you were able to reuse common code across all the different pieces and streamline your codebase.
+
+**Used Pyinstaller to Create a Standalone Executable:** To make your game accessible and easy to install, you used Pyinstaller to create a standalone executable file. This allowed users to download and install the game on their computers without needing to install any additional libraries or dependencies.
 
 
 <a name="future"></a>
