@@ -82,16 +82,9 @@ On the main menu you have the option to choose a player vs player game, which yo
 ## Future Improvements
 <a name="power"></a>
 ### Efficiency and AI Power
-There are several ways that this game could be improved in the future. Here are a few suggestions:
-* Implement a more sophisticated AI system that uses machine learning techniques to improve its decision-making over time.
-* 
+There are several ways that the AI and algorithms of the game could be improved in the future. Here are a few suggestions:
 
-
-<a name="gameplay"></a>
-### Gameplay
-Here are some possible suggestions to make a improve the gameplay and add more user experience features:
-* Add support for online multiplayer so that players can compete against each other from different locations.
-Sure, here are some additional details for the future improvements:
+- **Implement a more sophisticated AI system:** Implementing a machine learning-based AI system is a significant improvement over the simple minimax algorithm. You can use a neural network to make decisions in real-time gameplay. The network is trained on a dataset of board states and moves, and it learns to predict the most likely move given the current state of the board. One of the main advantages of a machine learning-based AI system is its ability to adapt to new situations.
 
 - **Add more depth to the minimax algorithm:** While the current minimax algorithm with alpha-beta pruning is effective, it may struggle to find the best move in more complex positions. One potential solution is to add more depth to the search tree, but this could result in the algorithm running out of space or time. To address this issue, you could explore other optimization techniques such as iterative deepening, transposition tables, or move ordering.
 
@@ -102,6 +95,26 @@ Sure, here are some additional details for the future improvements:
 - **Using python numpy arrays for faster arrays:** To improve the performance of the game, you could consider using numpy arrays instead of regular Python lists for storing the board state. Numpy arrays are optimized for numerical operations and can be significantly faster than lists for large datasets.
 
 - **Add an opening move database:** Another potential improvement would be to add a database of opening moves that the AI could use to make informed decisions at the beginning of the game. There are many existing databases of opening moves available online, such as the "Chess Openings Explorer" on Chess.com or the "ECO Codes" on Chessgames.com. By using these databases, the AI could make more strategic opening moves and gain an advantage over its opponent.
+
+
+<a name="gameplay"></a>
+### Gameplay
+Here are some possible suggestions to make a improve the gameplay and add more user experience features:
+
+**Multiplayer Mode for More Engaging Gameplay:** Add a multiplayer mode to the game to provide players with a more challenging and engaging experience. Allow players to compete against each other online or locally, and provide options for creating custom games and tournaments.
+
+**Improved Menu System for Better User Experience:** Improve the game's menu system to make it more user-friendly and intuitive. Add a tutorial or help section to guide new players, and organize menu items in a clear and organized way.
+
+**More AI Players with Varying Skill Levels:** Add more AI players with varying skill levels to provide players with a wider range of opponents to play against. Include beginner, intermediate, and advanced AI players, each with different strengths and weaknesses.
+
+**More Theme Colors and Customization Options:** Add more theme colors and customization options to the game to make it more visually appealing and personalized. Allow players to choose from a variety of colors and themes to customize their game board and pieces.
+
+**Move Suggestions for Improved Gameplay:** Provide move suggestions for players to make the game more accessible and helpful for new players. Include a feature that shows players possible moves and strategies based on the current game state.
+
+**Live Board Score Bar for More Exciting Gameplay:** Add a live board score bar that updates in real-time to make the game more exciting and competitive. Show players the current score and give them an idea of how they are doing compared to their opponent.
+
+**Ability to Save Games and Analyze Gameplay:** Allow players to save their games to come back to later or analyze their gameplay. Include a feature that allows players to study different game positions and strategies and learn from their mistakes.
+
 
 
 <a name="credits"></a>
