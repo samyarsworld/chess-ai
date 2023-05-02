@@ -9,12 +9,12 @@
     * [Installation](#installation)
     * [Game Controls](#controls)
     * [Commands](#commands)
-5. [Developer Features](#dev)
-6. [Future Improvements](#future)
+4. [Developer Features](#dev)
+5. [Future Improvements](#future)
     * [Efficiency and AI Power](#power)
     * [Gameplay](#gameplay)
-7. [Credits](#credits) 
-8. [License](#license)
+6. [Credits](#credits) 
+7. [License](#license)
  
 
 <a name="about"></a>
