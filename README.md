@@ -1,6 +1,6 @@
 # Python Chess
 
-## A fully functional chess game with the option of playing against 3 different AI powered difficulties with the computer.
+## A fully functional chess game with the option of playing against 3 different AI-powered difficulties with the computer.
 
 ## Index
 1. [About](#about)
@@ -20,11 +20,11 @@
 
 <a name="about"></a>
 ## About
-This is a chess game built using Python and Pygame that incorporates all standard chess rules and functionalities such as unpassant, castles, checks, promotions, and checkmates. In addition to these features, the game includes an AI move calculation system that allows the computer to make informed decisions about its moves based on the current state of the board. The AI engine utilizes the minimax and alpha beta pruning algorithms with addition of teaching the AI proper positional advantage of each piece. Main features include:
+This is a chess game built using Python and Pygame that incorporates all standard chess rules and functionalities such as unpassant, castles, checks, promotions, and checkmates. In addition to these features, the game includes an AI move calculation system that allows the computer to make informed decisions about its moves based on the current state of the board. The AI engine utilizes the minimax and alpha-beta pruning algorithms with the addition of teaching the AI proper positional advantage of each piece. The main features include:
 
-* Class based design for more scalable and structured code
-* Various algorithm implementation such as valid move calculation
-* Implemenation of Minimax algorithm for move score calculation, optimzed with Alpha-Beta Pruning
+* Class-based design for more scalable and structured code
+* Various algorithm implementations such as valid move calculation
+* Implementation of Minimax algorithm for move score calculation, optimized with Alpha-Beta Pruning
 * Various move visualization
 * Sound and image implementation
 
@@ -52,7 +52,7 @@ A GUI chess game including a simple AI, all written in Python.
 
 <a name="usage"></a>
 ## Usage
-A link to executable file to play this game is here: For Windows users <a style="color:blue;" href="https://drive.google.com/file/d/10omrOwOEGRWuktQmulFdMlf-dh1gP57q/view?usp=share_link">CLICK HERE</a>. For Linux users <a style="color:orange;" href="https://drive.google.com/file/d/1fv38zVT_72w5eTOCWYMTKEJs6T6PzNjM/view?usp=share_link">CLICK HERE</a>. After downloading the zip file, simply unzip and run the executable file.
+A link to the executable file to play this game is here: For Windows users <a style="color:blue;" href="https://drive.google.com/file/d/10omrOwOEGRWuktQmulFdMlf-dh1gP57q/view?usp=share_link">CLICK HERE</a>. For Linux users <a style="color:orange;" href="https://drive.google.com/file/d/1fv38zVT_72w5eTOCWYMTKEJs6T6PzNjM/view?usp=share_link">CLICK HERE</a>. After downloading the zip file, simply unzip and run the executable file.
 Additionally, you can use the following installation to clone and run the file locally on your computer.
 
 To install this project, make sure you have the correct version of Python and Pygame.
@@ -60,7 +60,7 @@ To install this project, make sure you have the correct version of Python and Py
 <a name="installation"></a>
 ### Installation
 - Switch to Python3.
-- Follow the code below to create virtual environment and install the necessary libraries.
+- Follow the code below to create a virtual environment and install the necessary libraries.
 (Currently tested on Python 3.8 and Python 3.10)
 ```
 git clone https://github.com/samyarsworld/chess-ai.git
@@ -74,9 +74,9 @@ python3 -W ignore main.py
 
 <a name="controls"></a>
 ### Game Controls
-To make a move, click on the piece you want to move and drag the piece while holding down the key, then release on the square you want to move it to. If the move is legal, the piece will move to the new square. If the move is not legal, nothing will happen. You have the ability to undo using `u` key unless the game is in checkmate. After checkmate, new game start in a couple of seconds.
+To make a move, click on the piece you want to move and drag the piece while holding down the key, then release it on the square you want to move it to. If the move is legal, the piece will move to the new square. If the move is not legal, nothing will happen. You have the ability to undo using `u` key unless the game is in checkmate. After checkmate, the new game start in a couple of seconds.
 
-On the main menu you have the option to choose a player vs player game, which you and your friend control the pieces on the local computer. Or you can choose to play against the computer by choosing of the three difficulty options available.
+On the main menu, you have the option to choose a player vs player game, in which you and your friend control the pieces on the local computer. Or you can choose to play against the computer by choosing of the three difficulty options available.
 
 <a name="commands"></a>
 ### Commands
@@ -87,7 +87,7 @@ On the main menu you have the option to choose a player vs player game, which yo
 
 <a name="dev"></a>
 ## Developer Features
-Here are some technical considerations that was used to build and design this project:
+Here are some technical considerations that were used to build and design this project:
 
 **Built with Python and Pygame Libraries:** Your chess app was built using the Python programming language and the Pygame library, which provided the necessary tools for developing the game's graphical interface and handling user input.
 
@@ -121,7 +121,7 @@ There are several ways that the AI and algorithms of the game could be improved 
 
 <a name="gameplay"></a>
 ### Gameplay
-Here are some possible suggestions to make a improve the gameplay and add more user experience features:
+Here are some possible suggestions to improve the gameplay and add more user experience features:
 
 - **Multiplayer Mode for More Engaging Gameplay:** Add a multiplayer mode to the game to provide players with a more challenging and engaging experience. Allow players to compete against each other online or locally, and provide options for creating custom games and tournaments.
 
