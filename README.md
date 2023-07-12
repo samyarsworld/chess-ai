@@ -89,15 +89,15 @@ On the main menu, you have the option to choose a player vs player game, in whic
 ## Developer Features
 Here are some technical considerations that were used to build and design this project:
 
-**Built with Python and Pygame Libraries:** Your chess app was built using the Python programming language and the Pygame library, which provided the necessary tools for developing the game's graphical interface and handling user input.
+**Built with Python and Pygame Libraries:** The chess app was built using the Python programming language and the Pygame library, which provided the necessary tools for developing the game's graphical interface and handling user input.
 
-**Used Various Pygame Methods and Functions:** In order to create the game's user interface, you utilized various Pygame methods and functions such as display, font, mouse, blit, events, and render. These methods allowed you to create and manipulate visual elements such as game pieces, the game board, and text displays.
+**Used Various Pygame Methods and Functions:** In order to create the game's user interface, various Pygame methods, and functions were utilized such as display, font, mouse, blit, events, and render. These methods allowed to create and manipulate visual elements such as game pieces, the game board, and text displays.
 
-**Created Multiple Classes to Organize the Code:** To make your code more modular and easier to manage, you created several classes to represent different elements of the game. These classes included the game itself, the game board, each individual game piece, each square on the board, and each individual move that can be made in the game.
+**Created Multiple Classes to Organize the Code:** To make the code more modular and easier to manage, several classes were created to represent different elements of the game. These classes included the game itself, the game board, each individual game piece, each square on the board, and each individual move that can be made in the game.
 
-**Implemented Inheritance to Streamline Code:** In order to avoid repeating code and improve code efficiency, you implemented inheritance on the game pieces. By creating a parent class for all game pieces and then creating child classes for each specific piece type (such as the rook, bishop, or queen), you were able to reuse common code across all the different pieces and streamline your codebase.
+**Implemented Inheritance to Streamline Code:** In order to avoid repeating code and improve code efficiency, inheritance was implemented  on the game pieces. By creating a parent class for all game pieces and then creating child classes for each specific piece type (such as the rook, bishop, or queen), common code is reused across all the different pieces and streamlines the codebase.
 
-**Used Pyinstaller to Create a Standalone Executable:** To make your game accessible and easy to install, you used Pyinstaller to create a standalone executable file. This allowed users to download and install the game on their computers without needing to install any additional libraries or dependencies.
+**Used Pyinstaller to Create a Standalone Executable:** To make the game accessible and easy to install, Pyinstaller was used to create a standalone executable file. This allowed users to download and install the game on their computers without needing to install any additional libraries or dependencies.
 
 
 <a name="future"></a>
